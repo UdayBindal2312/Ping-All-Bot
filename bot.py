@@ -27,8 +27,8 @@ async def start(event):
   await event.reply("^_^ Hey, Welcome To TAG Help Bot's Menu\nI can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/DeeCodeBots'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/DeCodeSupport'), 
+                        Button.url('📣 Developer', 't.me/Bull_2_Bear'), 
+                         Button.url('⭐Blog', 'https://GreenTradeZone.com'), 
                       ], 
                       [
                         Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
@@ -44,8 +44,8 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [
-                         Button.url('📣 UPDATES', 'https://t.me/DeeCodeBots'), 
-                         Button.url('⭐SUPPORT', 'https://t.me/DeCodeSupport'), 
+                         Button.url('📣 Developer', 't.me/Bull_2_Bear'), 
+                         Button.url('⭐Blog', 'https://GreenTradeZone.com'), 
                       ], 
                       [
                         Button.url('➕ ADD ME TO YOUR GROUP', 'https://t.me/MEMBER_TAGERBOT?startgroup=true'),   
@@ -54,9 +54,6 @@ async def help(event):
                     link_preview=False
                    )
 
-#Wah bhaiya full ignorebazzi
-
-#bsdk credit de dena verna maa chod dege
 
 #tag
 @client.on(events.NewMessage(pattern="^/tagall|/call|/tall|/all|#all|@all?(.*)"))
@@ -162,6 +159,6 @@ async def telegraph(client, message):
 
 
 
-print("Started Successfully Join Support")
-print("¯\_(ツ)_/¯ Need Help Join @DeCodeSupport")
+print("Started Successfully")
+print("¯\_(ツ)_/¯")
 client.run_until_disconnected()
